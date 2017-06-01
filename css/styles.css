@@ -397,9 +397,11 @@ a,
   bottom: 10px;
   left: 53px;
 }
+/*тест фильтра*/
 .furniture .wrapper .block__right img {
   margin: auto;
   box-shadow: 0 0 5px 3px #cccccc;
+  filter: saturate(0.5);
 }
 .decor {
   padding-top: 45px;
