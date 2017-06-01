@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: 'proxima_nova_rgbold';
-  src: url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
+  src: url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -87,6 +87,11 @@ a,
 }
 .section_numbering .number {
   color: black;
+}
+.block__image {
+  margin: auto;
+  box-shadow: 0 0 5px 3px #cccccc;
+  filter: saturate(0.6);
 }
 .header {
   display: flex;
@@ -397,12 +402,6 @@ a,
   bottom: 10px;
   left: 53px;
 }
-/*тест фильтра*/
-.furniture .wrapper .block__right img {
-  margin: auto;
-  box-shadow: 0 0 5px 3px #cccccc;
-  filter: saturate(0.2) sepia(0.1);
-}
 .decor {
   padding-top: 45px;
 }
@@ -471,10 +470,6 @@ a,
   border-bottom: 1.5px solid #bea67c;
   bottom: 10px;
   left: 53px;
-}
-.decor .wrapper .block__left img {
-  margin: auto;
-  box-shadow: 0 0 5px 3px #cccccc;
 }
 .video {
   padding-top: 15px;
@@ -657,10 +652,6 @@ a,
 }
 .about .wrapper .block__left {
   float: left;
-}
-.about .wrapper .block__left img {
-  margin: auto;
-  box-shadow: 0 0 5px 3px #cccccc;
 }
 .about .wrapper .block__right {
   text-align: left;
