@@ -16,7 +16,7 @@ sans-serif;
 
 @font-face {
     font-family: 'proxima_nova_rgbold';
-    src: url('proxima_nova_bold-webfont.woff2') format('woff2'), url('proxima_nova_bold-webfont.woff') format('woff');
+    src: url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -110,6 +110,12 @@ a,
     .number {
         color: black;
     }
+}
+
+.block__image {
+    margin: auto;
+    box-shadow: 0 0 5px 3px lighten(black, 80%);
+    filter: saturate(0.6);
 }
 
 .header {
@@ -437,12 +443,6 @@ a,
                 }
             }
         }
-        .block__right {
-            img {
-                margin: auto;
-                box-shadow: 0 0 5px 3px lighten(black, 80%);
-            }
-        }
     }
 }
 
@@ -511,12 +511,6 @@ a,
                     bottom: 10px;
                     left: 53px;
                 }
-            }
-        }
-        .block__left {
-            img {
-                margin: auto;
-                box-shadow: 0 0 5px 3px lighten(black, 80%);
             }
         }
     }
@@ -705,10 +699,6 @@ a,
         padding-bottom: 70px;
         .block__left {
             float: left;
-            img {
-                margin: auto;
-                box-shadow: 0 0 5px 3px lighten(black, 80%);
-            }
         }
         .block__right {
             text-align: left;
